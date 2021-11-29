@@ -14,13 +14,11 @@ namespace ParesImparesAte20
             Console.WriteLine("digite 1 para numeros impares ou 2 para numeros pares.");
             int numero = int.Parse(Console.ReadLine());
 
-            int cont = numero;
-
-            while (cont <=20)
+            while (numero <=20)
             {
                 Console.WriteLine(numero);
                 numero += 2;
-                cont += 2;
+             
             }
 
             Console.ReadKey();
